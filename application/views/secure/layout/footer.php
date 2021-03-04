@@ -1,7 +1,8 @@
+</section>
  </div>
       <footer class="main-footer">
         <div class="footer-left">
-          Copyright &copy; 2021 <div class="bullet"></div> Design By <a style="color: blue;">CELTIC</a>
+          Copyright &copy; 2021 <div class="bullet"></div> Design By <a style="color: #1aa9f0;">CELTIC</a>
         </div>
         <div class="footer-right">
           2.3.0
