@@ -1,3 +1,5 @@
+<!-- tutup konten -->
+</div>
 </section>
  </div>
       <footer class="main-footer">
@@ -18,15 +20,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
-  
-  <script src="../assets/secure/assets/js/stisla.js"></script>
+  <script src="../assets/stisla/assets/js/stisla.js"></script>
+
+  <!-- data tabel -->
+  <!-- <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script> -->
 
   <!-- JS Libraies -->
-  <script src="../assets/secure/node_modules/summernote/dist/summernote-bs4.js"></script>
+  <script src="../assets/stisla/node_modules/summernote/dist/summernote-bs4.js"></script>
 
   <!-- Template JS File -->
-  <script src="../assets/secure/assets/js/scripts.js"></script>
-  <script src="../assets/secure/assets/js/custom.js"></script>
+  <script src="../assets/stisla/assets/js/scripts.js"></script>
+  <script src="../assets/stisla/assets/js/custom.js"></script>
 
   <!-- Page Specific JS File -->
 </body>

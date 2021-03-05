@@ -8,24 +8,19 @@
           </div>
           <ul class="sidebar-menu">
               <li class="menu-header">Dashboard</li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
-                <ul class="dropdown-menu">
-                  <li><a class="nav-link" href="<?php echo base_url('secure/dasbor') ?>">General Dashboard</a></li>
-                  <li><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
-                </ul>
-              </li>
+             
+
+              <li><a class="nav-link" href="<?php echo base_url('secure/dasbor') ?>"><i class="fas fa-fire"></i> <span>Dashboard</span></a></li>
 
               <li class="menu-header">Master</li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>User</span></a>
                 <ul class="dropdown-menu">
-                   <li><a class="nav-link" href="<?php echo base_url('secure/user') ?>"><i class="far fa-square"></i> <span>Data User</span></a></li>
-                   <li><a class="nav-link" href="<?php echo base_url('secure/user/add') ?>"><i class="far fa-square"></i> <span>Tambah User</span></a></li>
+                   <li><a class="nav-link" href="<?php echo base_url('secure/admin') ?>"><i class="far fa-square"></i> <span>Data User</span></a></li>
+                   <li><a class="nav-link" href="<?php echo base_url('secure/admin/add') ?>"><i class="far fa-square"></i> <span>Tambah User</span></a></li>
                 </ul>
               </li>
 
-          
 
             <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
               <a href="#" class="btn btn-primary btn-lg btn-block btn-icon-split">
@@ -34,5 +29,11 @@
             </div>
         </aside>
       </div>
+
+  <!-- masuk konten -->
        <div class="main-content">
         <section class="section">
+          <div class="section-header">
+            <h1><?php echo $title ?></h1>
+          </div>
+          <div class="section-body">
