@@ -7,11 +7,10 @@
  	public function index()
  	{
  		$data = array ( 'title' 	=> 'Halaman Utama',
- 						'isi'		=> 'secure/dasbor/list'
+ 						'isi'		=> 'admin/dasbor/list'
  					);
- 		$this->load->view('secure/layout/wrapper', $data, FALSE);
+ 		$this->load->view('admin/layout/wrapper', $data, FALSE);
  	}
  
  }
- 
  
